@@ -150,7 +150,7 @@ def main():
                 st.success('Your ATS score has been calculated successfully! 🚀')
                 st.subheader('ATS Score Results')
                 st.markdown(response)
-                st.subheader('_Thanks for using the tool made by_ :blue[@ashusnapx] :sunglasses:')
+                # st.subheader('_Thanks for using the tool made by_ :blue[@ashusnapx] :sunglasses:')
             else:
                 # Display error messages
                 if len(jd) < 50:
